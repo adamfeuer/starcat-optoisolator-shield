@@ -4572,7 +4572,7 @@ By-Attribution Share-Alike 4.0 license</text>
 <pinref part="JP10" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="OPTO_OUT1" class="0">
+<net name="OPTO_OUT_1B" class="0">
 <segment>
 <wire x1="107.188" y1="244.856" x2="107.188" y2="242.316" width="0.1524" layer="91"/>
 <wire x1="107.188" y1="242.316" x2="107.188" y2="239.776" width="0.1524" layer="91"/>
@@ -4616,10 +4616,10 @@ By-Attribution Share-Alike 4.0 license</text>
 <junction x="192.532" y="234.188"/>
 <wire x1="192.532" y1="249.428" x2="185.928" y2="249.428" width="0.1524" layer="91"/>
 <junction x="192.532" y="249.428"/>
-<label x="185.928" y="249.936" size="1.778" layer="95"/>
+<label x="183.642" y="250.19" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="OPTO_OUT2" class="0">
+<net name="OPTO_OUT_2B" class="0">
 <segment>
 <wire x1="97.028" y1="229.616" x2="97.028" y2="232.156" width="0.1524" layer="91"/>
 <wire x1="97.028" y1="232.156" x2="99.568" y2="232.156" width="0.1524" layer="91"/>
@@ -4665,10 +4665,10 @@ By-Attribution Share-Alike 4.0 license</text>
 <junction x="193.04" y="196.85"/>
 <wire x1="193.04" y1="212.09" x2="186.436" y2="212.09" width="0.1524" layer="91"/>
 <junction x="193.04" y="212.09"/>
-<label x="186.436" y="212.598" size="1.778" layer="95"/>
+<label x="183.896" y="212.852" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="OPTO_OUT3" class="0">
+<net name="OPTO_OUT_1C" class="0">
 <segment>
 <wire x1="107.442" y1="169.164" x2="107.442" y2="166.624" width="0.1524" layer="91"/>
 <wire x1="107.442" y1="166.624" x2="107.442" y2="164.084" width="0.1524" layer="91"/>
@@ -4712,10 +4712,10 @@ By-Attribution Share-Alike 4.0 license</text>
 <junction x="193.04" y="161.29"/>
 <wire x1="193.04" y1="176.53" x2="186.436" y2="176.53" width="0.1524" layer="91"/>
 <junction x="193.04" y="176.53"/>
-<label x="186.436" y="177.038" size="1.778" layer="95"/>
+<label x="183.896" y="177.292" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="OPTO_OUT4" class="0">
+<net name="OPTO_OUT_2C" class="0">
 <segment>
 <wire x1="97.282" y1="153.924" x2="97.282" y2="156.464" width="0.1524" layer="91"/>
 <wire x1="97.282" y1="156.464" x2="99.822" y2="156.464" width="0.1524" layer="91"/>
@@ -4761,10 +4761,10 @@ By-Attribution Share-Alike 4.0 license</text>
 <junction x="193.04" y="125.73"/>
 <wire x1="193.04" y1="140.97" x2="186.436" y2="140.97" width="0.1524" layer="91"/>
 <junction x="193.04" y="140.97"/>
-<label x="186.436" y="141.478" size="1.778" layer="95"/>
+<label x="183.642" y="141.986" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="OPTO_IN5" class="0">
+<net name="OPTO_IN_1A" class="0">
 <segment>
 <wire x1="115.062" y1="60.452" x2="130.048" y2="60.452" width="0.1524" layer="91"/>
 <label x="132.842" y="61.214" size="1.778" layer="95" rot="MR0"/>
@@ -4802,10 +4802,10 @@ By-Attribution Share-Alike 4.0 license</text>
 <junction x="194.056" y="88.9"/>
 <wire x1="194.056" y1="104.14" x2="187.452" y2="104.14" width="0.1524" layer="91"/>
 <junction x="194.056" y="104.14"/>
-<label x="187.452" y="104.648" size="1.778" layer="95"/>
+<label x="186.182" y="105.156" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="OPTO_IN6" class="0">
+<net name="OPTO_IN_2A" class="0">
 <segment>
 <wire x1="130.302" y1="55.372" x2="115.57" y2="55.372" width="0.1524" layer="91"/>
 <label x="132.842" y="56.134" size="1.778" layer="95" rot="MR0"/>
@@ -4843,7 +4843,7 @@ By-Attribution Share-Alike 4.0 license</text>
 <junction x="194.31" y="53.086"/>
 <wire x1="194.31" y1="68.326" x2="187.706" y2="68.326" width="0.1524" layer="91"/>
 <junction x="194.31" y="68.326"/>
-<label x="187.706" y="68.834" size="1.778" layer="95"/>
+<label x="186.944" y="69.342" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EXT_GND_1" class="0">

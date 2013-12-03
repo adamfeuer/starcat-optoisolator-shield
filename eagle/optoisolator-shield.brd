@@ -235,7 +235,7 @@ International license (CC-BY-SA 4.0) </text>
 <wire x1="11.176" y1="22.86" x2="11.1506" y2="19.4818" width="0.254" layer="21"/>
 <wire x1="8.382" y1="8.382" x2="11.3284" y2="8.382" width="0.254" layer="21"/>
 <wire x1="11.3284" y1="8.382" x2="11.3284" y2="13.0556" width="0.254" layer="21"/>
-<text x="66.3194" y="48.2854" size="0.889" layer="21" rot="R180">Place jumper to connect
+<text x="66.3194" y="48.2854" size="0.889" layer="21" rot="R180">Place jumpers to connect
 positions A and B.
 Place at most one jumper
 per block (D38-D45) to
@@ -4532,7 +4532,7 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="19.4564" y="13.8938"/>
 </polygon>
 </signal>
-<signal name="OPTO_OUT1">
+<signal name="OPTO_OUT_1B">
 <contactref element="Q2" pad="3"/>
 <contactref element="R6" pad="1"/>
 <contactref element="INPUT1B" pad="2"/>
@@ -4562,7 +4562,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="71.882" y1="12.192" x2="45.72" y2="12.192" width="0.254" layer="16"/>
 <via x="40.64" y="17.272" extent="1-16" drill="0.6096"/>
 </signal>
-<signal name="OPTO_OUT2">
+<signal name="OPTO_OUT_2B">
 <contactref element="Q1" pad="3"/>
 <contactref element="R5" pad="1"/>
 <contactref element="INPUT2B" pad="2"/>
@@ -4601,7 +4601,7 @@ Please make sure your boards conform to these design rules.</description>
 <via x="71.12" y="15.24" extent="1-16" drill="0.6096"/>
 <wire x1="73.152" y1="18.288" x2="71.12" y2="15.24" width="0.254" layer="1"/>
 </signal>
-<signal name="OPTO_OUT3">
+<signal name="OPTO_OUT_1C">
 <contactref element="Q4" pad="3"/>
 <contactref element="R12" pad="1"/>
 <contactref element="INPUT1C" pad="2"/>
@@ -4643,7 +4643,7 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="38.862" y="43.18"/>
 </polygon>
 </signal>
-<signal name="OPTO_OUT4">
+<signal name="OPTO_OUT_2C">
 <contactref element="Q3" pad="3"/>
 <contactref element="R11" pad="1"/>
 <contactref element="INPUT2C" pad="2"/>
@@ -4672,7 +4672,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="71.882" y1="44.8945" x2="71.5645" y2="45.212" width="0.254" layer="1"/>
 <wire x1="71.5645" y1="45.212" x2="38.946" y2="45.212" width="0.254" layer="1"/>
 </signal>
-<signal name="OPTO_IN5">
+<signal name="OPTO_IN_1A">
 <contactref element="R13" pad="1"/>
 <contactref element="1A" pad="2"/>
 <contactref element="1A" pad="4"/>
@@ -4692,7 +4692,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="53.594" y1="23.622" x2="53.594" y2="26.162" width="0.254" layer="1"/>
 <wire x1="53.594" y1="28.702" x2="53.594" y2="31.242" width="0.254" layer="1"/>
 </signal>
-<signal name="OPTO_IN6">
+<signal name="OPTO_IN_2A">
 <contactref element="R15" pad="2"/>
 <contactref element="2A" pad="2"/>
 <contactref element="2A" pad="4"/>
