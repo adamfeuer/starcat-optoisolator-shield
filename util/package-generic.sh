@@ -6,8 +6,6 @@ DIR="$BOARD-cam-files"
 rm -rf $DIR
 mkdir -p $DIR 
 cp $BOARD.toplayer.ger $DIR
-cp $BOARD.agnd-layer2.ger $DIR
-cp $BOARD.dvdd-layer3.ger $DIR
 cp $BOARD.bottomlayer.ger $DIR
 cp $BOARD.topsoldermask.ger $DIR
 cp $BOARD.bottomsoldermask.ger $DIR
