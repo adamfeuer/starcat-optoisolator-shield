@@ -3490,18 +3490,6 @@ By-Attribution Share-Alike 4.0 license</text>
 <wire x1="302.26" y1="242.57" x2="279.146" y2="242.57" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$602" class="0">
-<segment>
-<pinref part="JP4" gate="A" pin="35"/>
-<wire x1="312.166" y1="124.968" x2="312.166" y2="137.16" width="0.1524" layer="91"/>
-<label x="311.658" y="129.54" size="1.27" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="JP4" gate="A" pin="36"/>
-<wire x1="312.166" y1="117.348" x2="312.166" y2="105.156" width="0.1524" layer="91"/>
-<label x="311.658" y="107.442" size="1.27" layer="95" rot="R90"/>
-</segment>
-</net>
 <net name="N$585" class="0">
 <segment>
 <pinref part="JP4" gate="A" pin="29"/>
@@ -3920,6 +3908,16 @@ By-Attribution Share-Alike 4.0 license</text>
 <pinref part="JP15" gate="A" pin="7"/>
 <wire x1="302.26" y1="234.95" x2="279.146" y2="234.95" width="0.1524" layer="91"/>
 <label x="279.146" y="235.458" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="A" pin="35"/>
+<wire x1="312.166" y1="124.968" x2="312.166" y2="137.16" width="0.1524" layer="91"/>
+<label x="311.658" y="129.54" size="1.27" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="A" pin="36"/>
+<wire x1="312.166" y1="117.348" x2="312.166" y2="105.156" width="0.1524" layer="91"/>
+<label x="311.658" y="107.442" size="1.27" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="VCC" class="0">
