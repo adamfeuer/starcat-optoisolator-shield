@@ -3147,10 +3147,10 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="P+5" library="SparkFun" deviceset="VCC" device="" value="VCC"/>
 <part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="GND3" library="SparkFun" deviceset="GND" device="" value="EXT_GND_1"/>
-<part name="Q3" library="SparkFun" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="NPN"/>
+<part name="Q3" library="SparkFun" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="MMBT2222ALT3G"/>
 <part name="P+7" library="SparkFun" deviceset="VCC" device="" value="VCC"/>
 <part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
-<part name="Q4" library="SparkFun" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="NPN"/>
+<part name="Q4" library="SparkFun" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="MMBT2222ALT3G"/>
 <part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="P+8" library="SparkFun" deviceset="VCC" device="" value="VCC"/>
 <part name="INPUT1B" library="headers" deviceset="PINHD-2X8" device=""/>
@@ -3166,10 +3166,10 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="P+1" library="SparkFun" deviceset="VCC" device="" value="VCC"/>
 <part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="GND4" library="SparkFun" deviceset="GND" device="" value="EXT_GND_0"/>
-<part name="Q1" library="SparkFun" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="NPN"/>
+<part name="Q1" library="SparkFun" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="MMBT2222ALT3G"/>
 <part name="P+3" library="SparkFun" deviceset="VCC" device="" value="VCC"/>
 <part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
-<part name="Q2" library="SparkFun" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="NPN"/>
+<part name="Q2" library="SparkFun" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="MMBT2222ALT3G"/>
 <part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="P+4" library="SparkFun" deviceset="VCC" device="" value="VCC"/>
 <part name="JP8" library="SparkFun-Connectors" deviceset="M03" device="SCREW" value="M03_3.5MM"/>
@@ -3181,10 +3181,10 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="P+9" library="SparkFun" deviceset="VCC" device="" value="EXT_VCC"/>
 <part name="R16" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="P+10" library="SparkFun" deviceset="VCC" device="" value="EXT_VCC"/>
-<part name="Q5" library="SparkFun" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="NPN"/>
+<part name="Q5" library="SparkFun" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="MMBT2222ALT3G"/>
 <part name="P+11" library="SparkFun" deviceset="VCC" device="" value="EXTERNAL_VCC"/>
 <part name="R17" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
-<part name="Q6" library="SparkFun" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="NPN"/>
+<part name="Q6" library="SparkFun" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="MMBT2222ALT3G"/>
 <part name="R18" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="P+12" library="SparkFun" deviceset="VCC" device="" value="EXTERNAL_VCC"/>
 <part name="JP9" library="SparkFun-Connectors" deviceset="M02" device="3.5MM" value="M02_3.5MM"/>
