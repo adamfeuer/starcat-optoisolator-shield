@@ -3135,7 +3135,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="JP6" library="SmartPrj" deviceset="PINHD-1X8" device="" value="ADCL"/>
 <part name="JP7" library="SmartPrj" deviceset="PINHD-1X10" device="" value="PWMH"/>
 <part name="JP15" library="SmartPrj" deviceset="PINHD-1X8" device="" value="POWER"/>
-<part name="SPI1" library="SmartPrj" deviceset="PINHD-2X3" device="" value="SPI"/>
+<part name="SPI" library="SmartPrj" deviceset="PINHD-2X3" device="" value="SPI"/>
 <part name="U$5" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$6" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$2" library="adafruit" deviceset="FIDUCIAL" device=""/>
@@ -3153,10 +3153,10 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="Q4" library="SparkFun" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="MMBT2222ALT3G"/>
 <part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="P+8" library="SparkFun" deviceset="VCC" device="" value="VCC"/>
-<part name="INPUT1B" library="headers" deviceset="PINHD-2X8" device=""/>
-<part name="INPUT2B" library="headers" deviceset="PINHD-2X8" device=""/>
-<part name="INPUT1C" library="headers" deviceset="PINHD-2X8" device=""/>
-<part name="INPUT2C" library="headers" deviceset="PINHD-2X8" device=""/>
+<part name="INPUT_B1" library="headers" deviceset="PINHD-2X8" device=""/>
+<part name="INPUT_B2" library="headers" deviceset="PINHD-2X8" device=""/>
+<part name="INPUT_C1" library="headers" deviceset="PINHD-2X8" device=""/>
+<part name="INPUT_C2" library="headers" deviceset="PINHD-2X8" device=""/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M03" device="SCREW" value="M03_3.5MM"/>
 <part name="U1" library="SparkFun" deviceset="OPTOISOLATOR-2" device="SOIC8" value="OPTO"/>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="220"/>
@@ -3189,8 +3189,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="P+12" library="SparkFun" deviceset="VCC" device="" value="EXTERNAL_VCC"/>
 <part name="JP9" library="SparkFun-Connectors" deviceset="M02" device="3.5MM" value="M02_3.5MM"/>
 <part name="JP10" library="SparkFun-Connectors" deviceset="M02" device="3.5MM" value="M02_3.5MM"/>
-<part name="1A" library="headers" deviceset="PINHD-2X8" device=""/>
-<part name="2A" library="headers" deviceset="PINHD-2X8" device=""/>
+<part name="A1" library="headers" deviceset="PINHD-2X8" device=""/>
+<part name="A2" library="headers" deviceset="PINHD-2X8" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3340,7 +3340,7 @@ By-Attribution Share-Alike 4.0 license</text>
 <instance part="JP6" gate="A" x="304.8" y="204.47"/>
 <instance part="JP7" gate="A" x="363.982" y="244.348" rot="MR0"/>
 <instance part="JP15" gate="A" x="304.8" y="240.03"/>
-<instance part="SPI1" gate="A" x="335.28" y="208.28" rot="R270"/>
+<instance part="SPI" gate="A" x="335.28" y="208.28" rot="R270"/>
 <instance part="U$5" gate="G$1" x="332.74" y="63.5"/>
 <instance part="U$6" gate="G$1" x="342.9" y="63.5"/>
 <instance part="U$2" gate="G$1" x="322.58" y="63.5"/>
@@ -3386,10 +3386,10 @@ By-Attribution Share-Alike 4.0 license</text>
 <attribute name="VALUE" x="105.918" y="174.752" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+8" gate="1" x="107.442" y="181.864"/>
-<instance part="INPUT1B" gate="G$1" x="210.312" y="240.538" rot="MR0"/>
-<instance part="INPUT2B" gate="G$1" x="210.82" y="203.2" rot="MR0"/>
-<instance part="INPUT1C" gate="G$1" x="210.82" y="167.64" rot="MR0"/>
-<instance part="INPUT2C" gate="G$1" x="210.82" y="132.08" rot="MR0"/>
+<instance part="INPUT_B1" gate="G$1" x="210.312" y="240.538" rot="MR0"/>
+<instance part="INPUT_B2" gate="G$1" x="210.82" y="203.2" rot="MR0"/>
+<instance part="INPUT_C1" gate="G$1" x="210.82" y="167.64" rot="MR0"/>
+<instance part="INPUT_C2" gate="G$1" x="210.82" y="132.08" rot="MR0"/>
 <instance part="JP1" gate="G$1" x="30.226" y="156.464"/>
 <instance part="U1" gate="G$1" x="74.168" y="229.616"/>
 <instance part="R1" gate="G$1" x="57.912" y="234.696" smashed="yes">
@@ -3478,8 +3478,8 @@ By-Attribution Share-Alike 4.0 license</text>
 <instance part="P+12" gate="1" x="60.452" y="83.312" smashed="yes" rot="MR0"/>
 <instance part="JP9" gate="G$1" x="31.75" y="57.912"/>
 <instance part="JP10" gate="G$1" x="32.258" y="42.672"/>
-<instance part="1A" gate="G$1" x="211.836" y="95.25" rot="MR0"/>
-<instance part="2A" gate="G$1" x="212.09" y="59.436" rot="MR0"/>
+<instance part="A1" gate="G$1" x="211.836" y="95.25" rot="MR0"/>
+<instance part="A2" gate="G$1" x="212.09" y="59.436" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -3498,14 +3498,14 @@ By-Attribution Share-Alike 4.0 license</text>
 </net>
 <net name="SPI0_MOSI" class="0">
 <segment>
-<pinref part="SPI1" gate="A" pin="4"/>
+<pinref part="SPI" gate="A" pin="4"/>
 <wire x1="335.28" y1="203.2" x2="335.28" y2="189.738" width="0.1524" layer="91"/>
 <label x="334.772" y="188.976" size="1.27" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SPI0_MISO" class="0">
 <segment>
-<pinref part="SPI1" gate="A" pin="1"/>
+<pinref part="SPI" gate="A" pin="1"/>
 <wire x1="337.82" y1="210.82" x2="337.82" y2="224.282" width="0.1524" layer="91"/>
 <label x="337.312" y="215.646" size="1.27" layer="95" rot="R90"/>
 </segment>
@@ -3530,21 +3530,21 @@ By-Attribution Share-Alike 4.0 license</text>
 </net>
 <net name="VCC_5V" class="0">
 <segment>
-<pinref part="SPI1" gate="A" pin="2"/>
+<pinref part="SPI" gate="A" pin="2"/>
 <wire x1="337.82" y1="203.2" x2="337.82" y2="189.738" width="0.1524" layer="91"/>
 <label x="337.312" y="191.516" size="1.27" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="RESET" class="0">
 <segment>
-<pinref part="SPI1" gate="A" pin="5"/>
+<pinref part="SPI" gate="A" pin="5"/>
 <wire x1="332.74" y1="210.82" x2="332.74" y2="224.282" width="0.1524" layer="91"/>
 <label x="332.232" y="215.9" size="1.27" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SPI0_SCK" class="0">
 <segment>
-<pinref part="SPI1" gate="A" pin="3"/>
+<pinref part="SPI" gate="A" pin="3"/>
 <wire x1="335.28" y1="210.82" x2="335.28" y2="224.282" width="0.1524" layer="91"/>
 <label x="334.772" y="215.9" size="1.27" layer="95" rot="R90"/>
 </segment>
@@ -4150,22 +4150,22 @@ By-Attribution Share-Alike 4.0 license</text>
 </net>
 <net name="D38" class="0">
 <segment>
-<pinref part="INPUT1B" gate="G$1" pin="1"/>
+<pinref part="INPUT_B1" gate="G$1" pin="1"/>
 <wire x1="214.122" y1="249.428" x2="228.854" y2="249.428" width="0.1524" layer="91"/>
 <label x="219.964" y="249.682" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="INPUT2B" gate="G$1" pin="1"/>
+<pinref part="INPUT_B2" gate="G$1" pin="1"/>
 <wire x1="214.63" y1="212.09" x2="229.362" y2="212.09" width="0.1524" layer="91"/>
 <label x="220.472" y="212.344" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="INPUT1C" gate="G$1" pin="1"/>
+<pinref part="INPUT_C1" gate="G$1" pin="1"/>
 <wire x1="214.63" y1="176.53" x2="229.362" y2="176.53" width="0.1524" layer="91"/>
 <label x="220.472" y="176.784" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="INPUT2C" gate="G$1" pin="1"/>
+<pinref part="INPUT_C2" gate="G$1" pin="1"/>
 <wire x1="214.63" y1="140.97" x2="229.362" y2="140.97" width="0.1524" layer="91"/>
 <label x="220.472" y="141.224" size="1.778" layer="95"/>
 </segment>
@@ -4175,34 +4175,34 @@ By-Attribution Share-Alike 4.0 license</text>
 <label x="331.978" y="133.604" size="1.27" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="1A" gate="G$1" pin="1"/>
+<pinref part="A1" gate="G$1" pin="1"/>
 <wire x1="215.646" y1="104.14" x2="230.378" y2="104.14" width="0.1524" layer="91"/>
 <label x="221.488" y="104.394" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="2A" gate="G$1" pin="1"/>
+<pinref part="A2" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="68.326" x2="230.632" y2="68.326" width="0.1524" layer="91"/>
 <label x="221.742" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D45" class="0">
 <segment>
-<pinref part="INPUT1B" gate="G$1" pin="15"/>
+<pinref part="INPUT_B1" gate="G$1" pin="15"/>
 <wire x1="214.122" y1="231.648" x2="228.854" y2="231.648" width="0.1524" layer="91"/>
 <label x="219.964" y="231.902" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="INPUT2B" gate="G$1" pin="15"/>
+<pinref part="INPUT_B2" gate="G$1" pin="15"/>
 <wire x1="214.63" y1="194.31" x2="229.362" y2="194.31" width="0.1524" layer="91"/>
 <label x="220.472" y="194.564" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="INPUT1C" gate="G$1" pin="15"/>
+<pinref part="INPUT_C1" gate="G$1" pin="15"/>
 <wire x1="214.63" y1="158.75" x2="229.362" y2="158.75" width="0.1524" layer="91"/>
 <label x="220.472" y="159.004" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="INPUT2C" gate="G$1" pin="15"/>
+<pinref part="INPUT_C2" gate="G$1" pin="15"/>
 <wire x1="214.63" y1="123.19" x2="229.362" y2="123.19" width="0.1524" layer="91"/>
 <label x="220.472" y="123.444" size="1.778" layer="95"/>
 </segment>
@@ -4212,34 +4212,34 @@ By-Attribution Share-Alike 4.0 license</text>
 <label x="324.358" y="105.156" size="1.27" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="1A" gate="G$1" pin="15"/>
+<pinref part="A1" gate="G$1" pin="15"/>
 <wire x1="215.646" y1="86.36" x2="230.378" y2="86.36" width="0.1524" layer="91"/>
 <label x="221.488" y="86.614" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="2A" gate="G$1" pin="15"/>
+<pinref part="A2" gate="G$1" pin="15"/>
 <wire x1="215.9" y1="50.546" x2="230.632" y2="50.546" width="0.1524" layer="91"/>
 <label x="221.742" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D44" class="0">
 <segment>
-<pinref part="INPUT1B" gate="G$1" pin="13"/>
+<pinref part="INPUT_B1" gate="G$1" pin="13"/>
 <wire x1="214.122" y1="234.188" x2="228.854" y2="234.188" width="0.1524" layer="91"/>
 <label x="219.964" y="234.442" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="INPUT2B" gate="G$1" pin="13"/>
+<pinref part="INPUT_B2" gate="G$1" pin="13"/>
 <wire x1="214.63" y1="196.85" x2="229.362" y2="196.85" width="0.1524" layer="91"/>
 <label x="220.472" y="197.104" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="INPUT1C" gate="G$1" pin="13"/>
+<pinref part="INPUT_C1" gate="G$1" pin="13"/>
 <wire x1="214.63" y1="161.29" x2="229.362" y2="161.29" width="0.1524" layer="91"/>
 <label x="220.472" y="161.544" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="INPUT2C" gate="G$1" pin="13"/>
+<pinref part="INPUT_C2" gate="G$1" pin="13"/>
 <wire x1="214.63" y1="125.73" x2="229.362" y2="125.73" width="0.1524" layer="91"/>
 <label x="220.472" y="125.984" size="1.778" layer="95"/>
 </segment>
@@ -4249,34 +4249,34 @@ By-Attribution Share-Alike 4.0 license</text>
 <label x="324.104" y="133.604" size="1.27" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="1A" gate="G$1" pin="13"/>
+<pinref part="A1" gate="G$1" pin="13"/>
 <wire x1="215.646" y1="88.9" x2="230.378" y2="88.9" width="0.1524" layer="91"/>
 <label x="221.488" y="89.154" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="2A" gate="G$1" pin="13"/>
+<pinref part="A2" gate="G$1" pin="13"/>
 <wire x1="215.9" y1="53.086" x2="230.632" y2="53.086" width="0.1524" layer="91"/>
 <label x="221.742" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D43" class="0">
 <segment>
-<pinref part="INPUT1B" gate="G$1" pin="11"/>
+<pinref part="INPUT_B1" gate="G$1" pin="11"/>
 <wire x1="214.122" y1="236.728" x2="228.854" y2="236.728" width="0.1524" layer="91"/>
 <label x="219.964" y="236.982" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="INPUT2B" gate="G$1" pin="11"/>
+<pinref part="INPUT_B2" gate="G$1" pin="11"/>
 <wire x1="214.63" y1="199.39" x2="229.362" y2="199.39" width="0.1524" layer="91"/>
 <label x="220.472" y="199.644" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="INPUT1C" gate="G$1" pin="11"/>
+<pinref part="INPUT_C1" gate="G$1" pin="11"/>
 <wire x1="214.63" y1="163.83" x2="229.362" y2="163.83" width="0.1524" layer="91"/>
 <label x="220.472" y="164.084" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="INPUT2C" gate="G$1" pin="11"/>
+<pinref part="INPUT_C2" gate="G$1" pin="11"/>
 <wire x1="214.63" y1="128.27" x2="229.362" y2="128.27" width="0.1524" layer="91"/>
 <label x="220.472" y="128.524" size="1.778" layer="95"/>
 </segment>
@@ -4286,34 +4286,34 @@ By-Attribution Share-Alike 4.0 license</text>
 <label x="326.898" y="105.156" size="1.27" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="1A" gate="G$1" pin="11"/>
+<pinref part="A1" gate="G$1" pin="11"/>
 <wire x1="215.646" y1="91.44" x2="230.378" y2="91.44" width="0.1524" layer="91"/>
 <label x="221.488" y="91.694" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="2A" gate="G$1" pin="11"/>
+<pinref part="A2" gate="G$1" pin="11"/>
 <wire x1="215.9" y1="55.626" x2="230.632" y2="55.626" width="0.1524" layer="91"/>
 <label x="221.742" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D42" class="0">
 <segment>
-<pinref part="INPUT1B" gate="G$1" pin="9"/>
+<pinref part="INPUT_B1" gate="G$1" pin="9"/>
 <wire x1="214.122" y1="239.268" x2="228.854" y2="239.268" width="0.1524" layer="91"/>
 <label x="219.964" y="239.522" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="INPUT2B" gate="G$1" pin="9"/>
+<pinref part="INPUT_B2" gate="G$1" pin="9"/>
 <wire x1="214.63" y1="201.93" x2="229.362" y2="201.93" width="0.1524" layer="91"/>
 <label x="220.472" y="202.184" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="INPUT1C" gate="G$1" pin="9"/>
+<pinref part="INPUT_C1" gate="G$1" pin="9"/>
 <wire x1="214.63" y1="166.37" x2="229.362" y2="166.37" width="0.1524" layer="91"/>
 <label x="220.472" y="166.624" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="INPUT2C" gate="G$1" pin="9"/>
+<pinref part="INPUT_C2" gate="G$1" pin="9"/>
 <wire x1="214.63" y1="130.81" x2="229.362" y2="130.81" width="0.1524" layer="91"/>
 <label x="220.472" y="131.064" size="1.778" layer="95"/>
 </segment>
@@ -4323,34 +4323,34 @@ By-Attribution Share-Alike 4.0 license</text>
 <label x="326.644" y="133.604" size="1.27" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="1A" gate="G$1" pin="9"/>
+<pinref part="A1" gate="G$1" pin="9"/>
 <wire x1="215.646" y1="93.98" x2="230.378" y2="93.98" width="0.1524" layer="91"/>
 <label x="221.488" y="94.234" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="2A" gate="G$1" pin="9"/>
+<pinref part="A2" gate="G$1" pin="9"/>
 <wire x1="215.9" y1="58.166" x2="230.632" y2="58.166" width="0.1524" layer="91"/>
 <label x="221.742" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D41" class="0">
 <segment>
-<pinref part="INPUT1B" gate="G$1" pin="7"/>
+<pinref part="INPUT_B1" gate="G$1" pin="7"/>
 <wire x1="214.122" y1="241.808" x2="228.854" y2="241.808" width="0.1524" layer="91"/>
 <label x="219.964" y="242.062" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="INPUT2B" gate="G$1" pin="7"/>
+<pinref part="INPUT_B2" gate="G$1" pin="7"/>
 <wire x1="214.63" y1="204.47" x2="229.362" y2="204.47" width="0.1524" layer="91"/>
 <label x="220.472" y="204.724" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="INPUT1C" gate="G$1" pin="7"/>
+<pinref part="INPUT_C1" gate="G$1" pin="7"/>
 <wire x1="214.63" y1="168.91" x2="229.362" y2="168.91" width="0.1524" layer="91"/>
 <label x="220.472" y="169.164" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="INPUT2C" gate="G$1" pin="7"/>
+<pinref part="INPUT_C2" gate="G$1" pin="7"/>
 <wire x1="214.63" y1="133.35" x2="229.362" y2="133.35" width="0.1524" layer="91"/>
 <label x="220.472" y="133.604" size="1.778" layer="95"/>
 </segment>
@@ -4360,34 +4360,34 @@ By-Attribution Share-Alike 4.0 license</text>
 <label x="329.438" y="105.41" size="1.27" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="1A" gate="G$1" pin="7"/>
+<pinref part="A1" gate="G$1" pin="7"/>
 <wire x1="215.646" y1="96.52" x2="230.378" y2="96.52" width="0.1524" layer="91"/>
 <label x="221.488" y="96.774" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="2A" gate="G$1" pin="7"/>
+<pinref part="A2" gate="G$1" pin="7"/>
 <wire x1="215.9" y1="60.706" x2="230.632" y2="60.706" width="0.1524" layer="91"/>
 <label x="221.742" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D40" class="0">
 <segment>
-<pinref part="INPUT1B" gate="G$1" pin="5"/>
+<pinref part="INPUT_B1" gate="G$1" pin="5"/>
 <wire x1="214.122" y1="244.348" x2="228.854" y2="244.348" width="0.1524" layer="91"/>
 <label x="219.964" y="244.602" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="INPUT2B" gate="G$1" pin="5"/>
+<pinref part="INPUT_B2" gate="G$1" pin="5"/>
 <wire x1="214.63" y1="207.01" x2="229.362" y2="207.01" width="0.1524" layer="91"/>
 <label x="220.472" y="207.264" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="INPUT1C" gate="G$1" pin="5"/>
+<pinref part="INPUT_C1" gate="G$1" pin="5"/>
 <wire x1="214.63" y1="171.45" x2="229.362" y2="171.45" width="0.1524" layer="91"/>
 <label x="220.472" y="171.704" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="INPUT2C" gate="G$1" pin="5"/>
+<pinref part="INPUT_C2" gate="G$1" pin="5"/>
 <wire x1="214.63" y1="135.89" x2="229.362" y2="135.89" width="0.1524" layer="91"/>
 <label x="220.472" y="136.144" size="1.778" layer="95"/>
 </segment>
@@ -4397,34 +4397,34 @@ By-Attribution Share-Alike 4.0 license</text>
 <label x="329.184" y="133.604" size="1.27" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="1A" gate="G$1" pin="5"/>
+<pinref part="A1" gate="G$1" pin="5"/>
 <wire x1="215.646" y1="99.06" x2="230.378" y2="99.06" width="0.1524" layer="91"/>
 <label x="221.488" y="99.314" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="2A" gate="G$1" pin="5"/>
+<pinref part="A2" gate="G$1" pin="5"/>
 <wire x1="215.9" y1="63.246" x2="230.632" y2="63.246" width="0.1524" layer="91"/>
 <label x="221.742" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D39" class="0">
 <segment>
-<pinref part="INPUT1B" gate="G$1" pin="3"/>
+<pinref part="INPUT_B1" gate="G$1" pin="3"/>
 <wire x1="214.122" y1="246.888" x2="228.854" y2="246.888" width="0.1524" layer="91"/>
 <label x="219.964" y="247.142" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="INPUT2B" gate="G$1" pin="3"/>
+<pinref part="INPUT_B2" gate="G$1" pin="3"/>
 <wire x1="214.63" y1="209.55" x2="229.362" y2="209.55" width="0.1524" layer="91"/>
 <label x="220.472" y="209.804" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="INPUT1C" gate="G$1" pin="3"/>
+<pinref part="INPUT_C1" gate="G$1" pin="3"/>
 <wire x1="214.63" y1="173.99" x2="229.362" y2="173.99" width="0.1524" layer="91"/>
 <label x="220.472" y="174.244" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="INPUT2C" gate="G$1" pin="3"/>
+<pinref part="INPUT_C2" gate="G$1" pin="3"/>
 <wire x1="214.63" y1="138.43" x2="229.362" y2="138.43" width="0.1524" layer="91"/>
 <label x="220.472" y="138.684" size="1.778" layer="95"/>
 </segment>
@@ -4434,12 +4434,12 @@ By-Attribution Share-Alike 4.0 license</text>
 <label x="331.978" y="105.156" size="1.27" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="1A" gate="G$1" pin="3"/>
+<pinref part="A1" gate="G$1" pin="3"/>
 <wire x1="215.646" y1="101.6" x2="230.378" y2="101.6" width="0.1524" layer="91"/>
 <label x="221.488" y="101.854" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="2A" gate="G$1" pin="3"/>
+<pinref part="A2" gate="G$1" pin="3"/>
 <wire x1="215.9" y1="65.786" x2="230.632" y2="65.786" width="0.1524" layer="91"/>
 <label x="221.742" y="66.04" size="1.778" layer="95"/>
 </segment>
@@ -4583,32 +4583,32 @@ By-Attribution Share-Alike 4.0 license</text>
 <pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="INPUT1B" gate="G$1" pin="2"/>
+<pinref part="INPUT_B1" gate="G$1" pin="2"/>
 <wire x1="206.502" y1="249.428" x2="192.532" y2="249.428" width="0.1524" layer="91"/>
-<pinref part="INPUT1B" gate="G$1" pin="4"/>
+<pinref part="INPUT_B1" gate="G$1" pin="4"/>
 <wire x1="206.502" y1="246.888" x2="192.532" y2="246.888" width="0.1524" layer="91"/>
 <wire x1="192.532" y1="249.428" x2="192.532" y2="246.888" width="0.1524" layer="91"/>
-<pinref part="INPUT1B" gate="G$1" pin="6"/>
+<pinref part="INPUT_B1" gate="G$1" pin="6"/>
 <wire x1="206.502" y1="244.348" x2="192.532" y2="244.348" width="0.1524" layer="91"/>
 <wire x1="192.532" y1="246.888" x2="192.532" y2="244.348" width="0.1524" layer="91"/>
 <junction x="192.532" y="246.888"/>
-<pinref part="INPUT1B" gate="G$1" pin="8"/>
+<pinref part="INPUT_B1" gate="G$1" pin="8"/>
 <wire x1="206.502" y1="241.808" x2="192.532" y2="241.808" width="0.1524" layer="91"/>
 <wire x1="192.532" y1="244.348" x2="192.532" y2="241.808" width="0.1524" layer="91"/>
 <junction x="192.532" y="244.348"/>
-<pinref part="INPUT1B" gate="G$1" pin="10"/>
+<pinref part="INPUT_B1" gate="G$1" pin="10"/>
 <wire x1="206.502" y1="239.268" x2="192.532" y2="239.268" width="0.1524" layer="91"/>
 <wire x1="192.532" y1="241.808" x2="192.532" y2="239.268" width="0.1524" layer="91"/>
 <junction x="192.532" y="241.808"/>
-<pinref part="INPUT1B" gate="G$1" pin="12"/>
+<pinref part="INPUT_B1" gate="G$1" pin="12"/>
 <wire x1="206.502" y1="236.728" x2="192.532" y2="236.728" width="0.1524" layer="91"/>
 <wire x1="192.532" y1="239.268" x2="192.532" y2="236.728" width="0.1524" layer="91"/>
 <junction x="192.532" y="239.268"/>
-<pinref part="INPUT1B" gate="G$1" pin="14"/>
+<pinref part="INPUT_B1" gate="G$1" pin="14"/>
 <wire x1="206.502" y1="234.188" x2="192.532" y2="234.188" width="0.1524" layer="91"/>
 <wire x1="192.532" y1="236.728" x2="192.532" y2="234.188" width="0.1524" layer="91"/>
 <junction x="192.532" y="236.728"/>
-<pinref part="INPUT1B" gate="G$1" pin="16"/>
+<pinref part="INPUT_B1" gate="G$1" pin="16"/>
 <wire x1="206.502" y1="231.648" x2="192.532" y2="231.648" width="0.1524" layer="91"/>
 <wire x1="192.532" y1="234.188" x2="192.532" y2="231.648" width="0.1524" layer="91"/>
 <junction x="192.532" y="234.188"/>
@@ -4632,32 +4632,32 @@ By-Attribution Share-Alike 4.0 license</text>
 <wire x1="127" y1="219.456" x2="112.268" y2="219.456" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="INPUT2B" gate="G$1" pin="2"/>
+<pinref part="INPUT_B2" gate="G$1" pin="2"/>
 <wire x1="207.01" y1="212.09" x2="193.04" y2="212.09" width="0.1524" layer="91"/>
-<pinref part="INPUT2B" gate="G$1" pin="4"/>
+<pinref part="INPUT_B2" gate="G$1" pin="4"/>
 <wire x1="207.01" y1="209.55" x2="193.04" y2="209.55" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="212.09" x2="193.04" y2="209.55" width="0.1524" layer="91"/>
-<pinref part="INPUT2B" gate="G$1" pin="6"/>
+<pinref part="INPUT_B2" gate="G$1" pin="6"/>
 <wire x1="207.01" y1="207.01" x2="193.04" y2="207.01" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="209.55" x2="193.04" y2="207.01" width="0.1524" layer="91"/>
 <junction x="193.04" y="209.55"/>
-<pinref part="INPUT2B" gate="G$1" pin="8"/>
+<pinref part="INPUT_B2" gate="G$1" pin="8"/>
 <wire x1="207.01" y1="204.47" x2="193.04" y2="204.47" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="207.01" x2="193.04" y2="204.47" width="0.1524" layer="91"/>
 <junction x="193.04" y="207.01"/>
-<pinref part="INPUT2B" gate="G$1" pin="10"/>
+<pinref part="INPUT_B2" gate="G$1" pin="10"/>
 <wire x1="207.01" y1="201.93" x2="193.04" y2="201.93" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="204.47" x2="193.04" y2="201.93" width="0.1524" layer="91"/>
 <junction x="193.04" y="204.47"/>
-<pinref part="INPUT2B" gate="G$1" pin="12"/>
+<pinref part="INPUT_B2" gate="G$1" pin="12"/>
 <wire x1="207.01" y1="199.39" x2="193.04" y2="199.39" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="201.93" x2="193.04" y2="199.39" width="0.1524" layer="91"/>
 <junction x="193.04" y="201.93"/>
-<pinref part="INPUT2B" gate="G$1" pin="14"/>
+<pinref part="INPUT_B2" gate="G$1" pin="14"/>
 <wire x1="207.01" y1="196.85" x2="193.04" y2="196.85" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="199.39" x2="193.04" y2="196.85" width="0.1524" layer="91"/>
 <junction x="193.04" y="199.39"/>
-<pinref part="INPUT2B" gate="G$1" pin="16"/>
+<pinref part="INPUT_B2" gate="G$1" pin="16"/>
 <wire x1="207.01" y1="194.31" x2="193.04" y2="194.31" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="196.85" x2="193.04" y2="194.31" width="0.1524" layer="91"/>
 <junction x="193.04" y="196.85"/>
@@ -4679,32 +4679,32 @@ By-Attribution Share-Alike 4.0 license</text>
 <pinref part="R12" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="INPUT1C" gate="G$1" pin="2"/>
+<pinref part="INPUT_C1" gate="G$1" pin="2"/>
 <wire x1="207.01" y1="176.53" x2="193.04" y2="176.53" width="0.1524" layer="91"/>
-<pinref part="INPUT1C" gate="G$1" pin="4"/>
+<pinref part="INPUT_C1" gate="G$1" pin="4"/>
 <wire x1="207.01" y1="173.99" x2="193.04" y2="173.99" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="176.53" x2="193.04" y2="173.99" width="0.1524" layer="91"/>
-<pinref part="INPUT1C" gate="G$1" pin="6"/>
+<pinref part="INPUT_C1" gate="G$1" pin="6"/>
 <wire x1="207.01" y1="171.45" x2="193.04" y2="171.45" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="173.99" x2="193.04" y2="171.45" width="0.1524" layer="91"/>
 <junction x="193.04" y="173.99"/>
-<pinref part="INPUT1C" gate="G$1" pin="8"/>
+<pinref part="INPUT_C1" gate="G$1" pin="8"/>
 <wire x1="207.01" y1="168.91" x2="193.04" y2="168.91" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="171.45" x2="193.04" y2="168.91" width="0.1524" layer="91"/>
 <junction x="193.04" y="171.45"/>
-<pinref part="INPUT1C" gate="G$1" pin="10"/>
+<pinref part="INPUT_C1" gate="G$1" pin="10"/>
 <wire x1="207.01" y1="166.37" x2="193.04" y2="166.37" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="168.91" x2="193.04" y2="166.37" width="0.1524" layer="91"/>
 <junction x="193.04" y="168.91"/>
-<pinref part="INPUT1C" gate="G$1" pin="12"/>
+<pinref part="INPUT_C1" gate="G$1" pin="12"/>
 <wire x1="207.01" y1="163.83" x2="193.04" y2="163.83" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="166.37" x2="193.04" y2="163.83" width="0.1524" layer="91"/>
 <junction x="193.04" y="166.37"/>
-<pinref part="INPUT1C" gate="G$1" pin="14"/>
+<pinref part="INPUT_C1" gate="G$1" pin="14"/>
 <wire x1="207.01" y1="161.29" x2="193.04" y2="161.29" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="163.83" x2="193.04" y2="161.29" width="0.1524" layer="91"/>
 <junction x="193.04" y="163.83"/>
-<pinref part="INPUT1C" gate="G$1" pin="16"/>
+<pinref part="INPUT_C1" gate="G$1" pin="16"/>
 <wire x1="207.01" y1="158.75" x2="193.04" y2="158.75" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="161.29" x2="193.04" y2="158.75" width="0.1524" layer="91"/>
 <junction x="193.04" y="161.29"/>
@@ -4728,32 +4728,32 @@ By-Attribution Share-Alike 4.0 license</text>
 <wire x1="127.254" y1="143.764" x2="112.522" y2="143.764" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="INPUT2C" gate="G$1" pin="2"/>
+<pinref part="INPUT_C2" gate="G$1" pin="2"/>
 <wire x1="207.01" y1="140.97" x2="193.04" y2="140.97" width="0.1524" layer="91"/>
-<pinref part="INPUT2C" gate="G$1" pin="4"/>
+<pinref part="INPUT_C2" gate="G$1" pin="4"/>
 <wire x1="207.01" y1="138.43" x2="193.04" y2="138.43" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="140.97" x2="193.04" y2="138.43" width="0.1524" layer="91"/>
-<pinref part="INPUT2C" gate="G$1" pin="6"/>
+<pinref part="INPUT_C2" gate="G$1" pin="6"/>
 <wire x1="207.01" y1="135.89" x2="193.04" y2="135.89" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="138.43" x2="193.04" y2="135.89" width="0.1524" layer="91"/>
 <junction x="193.04" y="138.43"/>
-<pinref part="INPUT2C" gate="G$1" pin="8"/>
+<pinref part="INPUT_C2" gate="G$1" pin="8"/>
 <wire x1="207.01" y1="133.35" x2="193.04" y2="133.35" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="135.89" x2="193.04" y2="133.35" width="0.1524" layer="91"/>
 <junction x="193.04" y="135.89"/>
-<pinref part="INPUT2C" gate="G$1" pin="10"/>
+<pinref part="INPUT_C2" gate="G$1" pin="10"/>
 <wire x1="207.01" y1="130.81" x2="193.04" y2="130.81" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="133.35" x2="193.04" y2="130.81" width="0.1524" layer="91"/>
 <junction x="193.04" y="133.35"/>
-<pinref part="INPUT2C" gate="G$1" pin="12"/>
+<pinref part="INPUT_C2" gate="G$1" pin="12"/>
 <wire x1="207.01" y1="128.27" x2="193.04" y2="128.27" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="130.81" x2="193.04" y2="128.27" width="0.1524" layer="91"/>
 <junction x="193.04" y="130.81"/>
-<pinref part="INPUT2C" gate="G$1" pin="14"/>
+<pinref part="INPUT_C2" gate="G$1" pin="14"/>
 <wire x1="207.01" y1="125.73" x2="193.04" y2="125.73" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="128.27" x2="193.04" y2="125.73" width="0.1524" layer="91"/>
 <junction x="193.04" y="128.27"/>
-<pinref part="INPUT2C" gate="G$1" pin="16"/>
+<pinref part="INPUT_C2" gate="G$1" pin="16"/>
 <wire x1="207.01" y1="123.19" x2="193.04" y2="123.19" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="125.73" x2="193.04" y2="123.19" width="0.1524" layer="91"/>
 <junction x="193.04" y="125.73"/>
@@ -4769,32 +4769,32 @@ By-Attribution Share-Alike 4.0 license</text>
 <pinref part="R13" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="1A" gate="G$1" pin="2"/>
+<pinref part="A1" gate="G$1" pin="2"/>
 <wire x1="208.026" y1="104.14" x2="194.056" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="1A" gate="G$1" pin="4"/>
+<pinref part="A1" gate="G$1" pin="4"/>
 <wire x1="208.026" y1="101.6" x2="194.056" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="194.056" y1="104.14" x2="194.056" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="1A" gate="G$1" pin="6"/>
+<pinref part="A1" gate="G$1" pin="6"/>
 <wire x1="208.026" y1="99.06" x2="194.056" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="194.056" y1="101.6" x2="194.056" y2="99.06" width="0.1524" layer="91"/>
 <junction x="194.056" y="101.6"/>
-<pinref part="1A" gate="G$1" pin="8"/>
+<pinref part="A1" gate="G$1" pin="8"/>
 <wire x1="208.026" y1="96.52" x2="194.056" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="194.056" y1="99.06" x2="194.056" y2="96.52" width="0.1524" layer="91"/>
 <junction x="194.056" y="99.06"/>
-<pinref part="1A" gate="G$1" pin="10"/>
+<pinref part="A1" gate="G$1" pin="10"/>
 <wire x1="208.026" y1="93.98" x2="194.056" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="194.056" y1="96.52" x2="194.056" y2="93.98" width="0.1524" layer="91"/>
 <junction x="194.056" y="96.52"/>
-<pinref part="1A" gate="G$1" pin="12"/>
+<pinref part="A1" gate="G$1" pin="12"/>
 <wire x1="208.026" y1="91.44" x2="194.056" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="194.056" y1="93.98" x2="194.056" y2="91.44" width="0.1524" layer="91"/>
 <junction x="194.056" y="93.98"/>
-<pinref part="1A" gate="G$1" pin="14"/>
+<pinref part="A1" gate="G$1" pin="14"/>
 <wire x1="208.026" y1="88.9" x2="194.056" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="194.056" y1="91.44" x2="194.056" y2="88.9" width="0.1524" layer="91"/>
 <junction x="194.056" y="91.44"/>
-<pinref part="1A" gate="G$1" pin="16"/>
+<pinref part="A1" gate="G$1" pin="16"/>
 <wire x1="208.026" y1="86.36" x2="194.056" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="194.056" y1="88.9" x2="194.056" y2="86.36" width="0.1524" layer="91"/>
 <junction x="194.056" y="88.9"/>
@@ -4810,32 +4810,32 @@ By-Attribution Share-Alike 4.0 license</text>
 <pinref part="R15" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="2A" gate="G$1" pin="2"/>
+<pinref part="A2" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="68.326" x2="194.31" y2="68.326" width="0.1524" layer="91"/>
-<pinref part="2A" gate="G$1" pin="4"/>
+<pinref part="A2" gate="G$1" pin="4"/>
 <wire x1="208.28" y1="65.786" x2="194.31" y2="65.786" width="0.1524" layer="91"/>
 <wire x1="194.31" y1="68.326" x2="194.31" y2="65.786" width="0.1524" layer="91"/>
-<pinref part="2A" gate="G$1" pin="6"/>
+<pinref part="A2" gate="G$1" pin="6"/>
 <wire x1="208.28" y1="63.246" x2="194.31" y2="63.246" width="0.1524" layer="91"/>
 <wire x1="194.31" y1="65.786" x2="194.31" y2="63.246" width="0.1524" layer="91"/>
 <junction x="194.31" y="65.786"/>
-<pinref part="2A" gate="G$1" pin="8"/>
+<pinref part="A2" gate="G$1" pin="8"/>
 <wire x1="208.28" y1="60.706" x2="194.31" y2="60.706" width="0.1524" layer="91"/>
 <wire x1="194.31" y1="63.246" x2="194.31" y2="60.706" width="0.1524" layer="91"/>
 <junction x="194.31" y="63.246"/>
-<pinref part="2A" gate="G$1" pin="10"/>
+<pinref part="A2" gate="G$1" pin="10"/>
 <wire x1="208.28" y1="58.166" x2="194.31" y2="58.166" width="0.1524" layer="91"/>
 <wire x1="194.31" y1="60.706" x2="194.31" y2="58.166" width="0.1524" layer="91"/>
 <junction x="194.31" y="60.706"/>
-<pinref part="2A" gate="G$1" pin="12"/>
+<pinref part="A2" gate="G$1" pin="12"/>
 <wire x1="208.28" y1="55.626" x2="194.31" y2="55.626" width="0.1524" layer="91"/>
 <wire x1="194.31" y1="58.166" x2="194.31" y2="55.626" width="0.1524" layer="91"/>
 <junction x="194.31" y="58.166"/>
-<pinref part="2A" gate="G$1" pin="14"/>
+<pinref part="A2" gate="G$1" pin="14"/>
 <wire x1="208.28" y1="53.086" x2="194.31" y2="53.086" width="0.1524" layer="91"/>
 <wire x1="194.31" y1="55.626" x2="194.31" y2="53.086" width="0.1524" layer="91"/>
 <junction x="194.31" y="55.626"/>
-<pinref part="2A" gate="G$1" pin="16"/>
+<pinref part="A2" gate="G$1" pin="16"/>
 <wire x1="208.28" y1="50.546" x2="194.31" y2="50.546" width="0.1524" layer="91"/>
 <wire x1="194.31" y1="53.086" x2="194.31" y2="50.546" width="0.1524" layer="91"/>
 <junction x="194.31" y="53.086"/>
@@ -4910,7 +4910,7 @@ By-Attribution Share-Alike 4.0 license</text>
 </net>
 <net name="GND1" class="0">
 <segment>
-<pinref part="SPI1" gate="A" pin="6"/>
+<pinref part="SPI" gate="A" pin="6"/>
 <wire x1="332.74" y1="203.2" x2="332.74" y2="189.738" width="0.1524" layer="91"/>
 <label x="331.978" y="188.976" size="1.27" layer="95" rot="R90"/>
 </segment>
