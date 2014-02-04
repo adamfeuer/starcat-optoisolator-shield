@@ -243,6 +243,41 @@ to the blocks' input or output.</text>
 <wire x1="10.2362" y1="33.9598" x2="10.2362" y2="34.0106" width="0.254" layer="21"/>
 <dimension x1="98.0948" y1="-0.0254" x2="97.5868" y2="53.3146" x3="115.043746875" y3="26.8084375" textsize="1.778" layer="21" unit="inch"/>
 <dimension x1="101.6762" y1="37.8968" x2="0.0762" y2="37.8206" x3="50.9131375" y3="-11.392196875" textsize="1.778" layer="21" unit="inch"/>
+<text x="91.2368" y="10.668" size="0.762" layer="21" font="vector" ratio="12" rot="R270">52</text>
+<text x="91.2622" y="8.4074" size="0.762" layer="21" font="vector" ratio="12" rot="R270">GND</text>
+<text x="98.1456" y="51.435" size="0.762" layer="21" font="vector" ratio="12" rot="R270">5V</text>
+<text x="98.0948" y="8.4328" size="0.762" layer="21" font="vector" ratio="12" rot="R270">GND</text>
+<text x="91.2368" y="13.2842" size="0.762" layer="21" font="vector" ratio="12" rot="R270">50</text>
+<text x="91.2622" y="15.7226" size="0.762" layer="21" font="vector" ratio="12" rot="R270">48</text>
+<text x="91.2622" y="18.288" size="0.762" layer="21" font="vector" ratio="12" rot="R270">46</text>
+<text x="91.2876" y="20.8026" size="0.762" layer="21" font="vector" ratio="12" rot="R270">44</text>
+<text x="91.2876" y="23.368" size="0.762" layer="21" font="vector" ratio="12" rot="R270">42</text>
+<text x="91.313" y="25.908" size="0.762" layer="21" font="vector" ratio="12" rot="R270">40</text>
+<text x="91.2368" y="28.3972" size="0.762" layer="21" font="vector" ratio="12" rot="R270">38</text>
+<text x="91.2114" y="30.988" size="0.762" layer="21" font="vector" ratio="12" rot="R270">36</text>
+<text x="91.2114" y="33.6296" size="0.762" layer="21" font="vector" ratio="12" rot="R270">34</text>
+<text x="91.2114" y="36.1188" size="0.762" layer="21" font="vector" ratio="12" rot="R270">32</text>
+<text x="91.2368" y="38.7604" size="0.762" layer="21" font="vector" ratio="12" rot="R270">30</text>
+<text x="91.313" y="41.2496" size="0.762" layer="21" font="vector" ratio="12" rot="R270">28</text>
+<text x="91.2368" y="43.7896" size="0.762" layer="21" font="vector" ratio="12" rot="R270">26</text>
+<text x="91.2368" y="46.4312" size="0.762" layer="21" font="vector" ratio="12" rot="R270">24</text>
+<text x="91.2114" y="48.7426" size="0.762" layer="21" font="vector" ratio="12" rot="R270">22</text>
+<text x="98.679" y="9.4488" size="0.762" layer="21" font="vector" ratio="12" rot="R90">53</text>
+<text x="98.7298" y="11.9888" size="0.762" layer="21" font="vector" ratio="12" rot="R90">51</text>
+<text x="98.7552" y="14.5542" size="0.762" layer="21" font="vector" ratio="12" rot="R90">49</text>
+<text x="98.8314" y="17.0942" size="0.762" layer="21" font="vector" ratio="12" rot="R90">47</text>
+<text x="98.7552" y="19.5326" size="0.762" layer="21" font="vector" ratio="12" rot="R90">45</text>
+<text x="98.8314" y="22.1234" size="0.762" layer="21" font="vector" ratio="12" rot="R90">43</text>
+<text x="98.8822" y="24.6888" size="0.762" layer="21" font="vector" ratio="12" rot="R90">41</text>
+<text x="98.933" y="27.2034" size="0.762" layer="21" font="vector" ratio="12" rot="R90">39</text>
+<text x="98.9076" y="29.718" size="0.762" layer="21" font="vector" ratio="12" rot="R90">37</text>
+<text x="98.8822" y="32.2834" size="0.762" layer="21" font="vector" ratio="12" rot="R90">35</text>
+<text x="98.9076" y="34.798" size="0.762" layer="21" font="vector" ratio="12" rot="R90">33</text>
+<text x="98.9076" y="37.338" size="0.762" layer="21" font="vector" ratio="12" rot="R90">31</text>
+<text x="98.7806" y="39.878" size="0.762" layer="21" font="vector" ratio="12" rot="R90">29</text>
+<text x="98.806" y="42.4942" size="0.762" layer="21" font="vector" ratio="12" rot="R90">27</text>
+<text x="98.7552" y="44.9834" size="0.762" layer="21" font="vector" ratio="12" rot="R90">25</text>
+<text x="98.7806" y="47.5488" size="0.762" layer="21" font="vector" ratio="12" rot="R90">23</text>
 </plain>
 <libraries>
 <library name="SmartPrj">
