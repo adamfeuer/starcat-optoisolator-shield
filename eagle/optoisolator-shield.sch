@@ -3139,7 +3139,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="U$5" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$6" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$2" library="adafruit" deviceset="FIDUCIAL" device=""/>
-<part name="U2" library="SparkFun" deviceset="OPTOISOLATOR-2" device="SOIC8" value="OPTO"/>
+<part name="U2" library="SparkFun" deviceset="OPTOISOLATOR-2" device="SOIC8" value="ILD213T"/>
 <part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="220"/>
 <part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="220"/>
@@ -3158,7 +3158,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="INPUT_C1" library="headers" deviceset="PINHD-2X8" device=""/>
 <part name="INPUT_C2" library="headers" deviceset="PINHD-2X8" device=""/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M03" device="SCREW" value="M03_3.5MM"/>
-<part name="U1" library="SparkFun" deviceset="OPTOISOLATOR-2" device="SOIC8" value="OPTO"/>
+<part name="U1" library="SparkFun" deviceset="OPTOISOLATOR-2" device="SOIC8" value="ILD213T"/>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="220"/>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="220"/>
@@ -3173,7 +3173,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="P+4" library="SparkFun" deviceset="VCC" device="" value="VCC"/>
 <part name="JP8" library="SparkFun-Connectors" deviceset="M03" device="SCREW" value="M03_3.5MM"/>
-<part name="U3" library="SparkFun" deviceset="OPTOISOLATOR-2" device="SOIC8" value="OPTO"/>
+<part name="U3" library="SparkFun" deviceset="OPTOISOLATOR-2" device="SOIC8" value="ILD213T"/>
 <part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="220"/>
 <part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="220"/>
@@ -3268,7 +3268,7 @@ By-Attribution Share-Alike 4.0 license</text>
 <wire x1="143.002" y1="189.484" x2="143.002" y2="128.524" width="0.2032" layer="95" style="shortdash"/>
 <wire x1="143.002" y1="128.524" x2="74.422" y2="128.524" width="0.2032" layer="95" style="shortdash"/>
 <wire x1="74.422" y1="128.524" x2="74.422" y2="141.224" width="0.2032" layer="95" style="shortdash"/>
-<text x="68.072" y="124.46" size="1.778" layer="91">ILD213T</text>
+<text x="64.77" y="124.46" size="1.778" layer="91">Optoisolator</text>
 <text x="356.616" y="254" size="1.524" layer="91">SCL1</text>
 <text x="356.616" y="251.46" size="1.524" layer="91">SDA1</text>
 <text x="356.616" y="248.666" size="1.524" layer="91">AREF</text>
@@ -3307,7 +3307,7 @@ By-Attribution Share-Alike 4.0 license</text>
 <wire x1="142.748" y1="265.176" x2="142.748" y2="204.216" width="0.2032" layer="95" style="shortdash"/>
 <wire x1="142.748" y1="204.216" x2="74.168" y2="204.216" width="0.2032" layer="95" style="shortdash"/>
 <wire x1="74.168" y1="204.216" x2="74.168" y2="216.916" width="0.2032" layer="95" style="shortdash"/>
-<text x="67.564" y="200.66" size="1.778" layer="91">ILD213T</text>
+<text x="65.786" y="199.898" size="1.778" layer="91">Optoisolator</text>
 <text x="74.168" y="267.462" size="1.778" layer="91">Arduino</text>
 <text x="76.962" y="191.77" size="1.778" layer="91">Arduino</text>
 <wire x1="143.764" y1="90.932" x2="96.012" y2="90.932" width="0.2032" layer="95" style="shortdash"/>
@@ -3320,7 +3320,7 @@ By-Attribution Share-Alike 4.0 license</text>
 <wire x1="24.892" y1="90.932" x2="24.892" y2="29.972" width="0.2032" layer="95" style="shortdash"/>
 <wire x1="24.892" y1="29.972" x2="93.472" y2="29.972" width="0.2032" layer="95" style="shortdash"/>
 <wire x1="93.472" y1="29.972" x2="93.472" y2="42.672" width="0.2032" layer="95" style="shortdash"/>
-<text x="99.568" y="26.162" size="1.778" layer="91" rot="MR0">ILD213T</text>
+<text x="103.632" y="26.162" size="1.778" layer="91" rot="MR0">Optoisolator</text>
 <text x="59.436" y="92.202" size="1.778" layer="91" rot="MR0">External (noisy) system</text>
 <text x="108.204" y="93.218" size="1.778" layer="91" rot="MR0">Arduino</text>
 <text x="61.468" y="113.03" size="2.54" layer="91">Input (External to Arduino)</text>
@@ -3967,20 +3967,20 @@ By-Attribution Share-Alike 4.0 license</text>
 <label x="279.146" y="247.904" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="IN2" class="0">
+<net name="IN_B2" class="0">
 <segment>
 <wire x1="41.402" y1="229.616" x2="53.086" y2="229.616" width="0.1524" layer="91"/>
-<label x="46.228" y="229.616" size="1.778" layer="95"/>
+<label x="46.482" y="230.124" size="1.778" layer="95"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="JP8" gate="G$1" pin="2"/>
 <wire x1="37.592" y1="232.156" x2="41.402" y2="232.156" width="0.1524" layer="91"/>
 <wire x1="41.402" y1="232.156" x2="41.402" y2="229.616" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="IN1" class="0">
+<net name="IN_B1" class="0">
 <segment>
 <wire x1="52.832" y1="234.696" x2="37.592" y2="234.696" width="0.1524" layer="91"/>
-<label x="46.228" y="234.696" size="1.778" layer="95"/>
+<label x="46.482" y="235.204" size="1.778" layer="95"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="JP8" gate="G$1" pin="3"/>
 </segment>
@@ -4130,18 +4130,18 @@ By-Attribution Share-Alike 4.0 license</text>
 <wire x1="340.106" y1="117.348" x2="340.106" y2="105.156" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="IN3" class="0">
+<net name="IN_C1" class="0">
 <segment>
 <wire x1="52.578" y1="159.004" x2="37.846" y2="159.004" width="0.1524" layer="91"/>
-<label x="46.482" y="159.004" size="1.778" layer="95"/>
+<label x="46.228" y="159.512" size="1.778" layer="95"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="JP1" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="IN4" class="0">
+<net name="IN_C2" class="0">
 <segment>
 <wire x1="41.656" y1="153.924" x2="52.324" y2="153.924" width="0.1524" layer="91"/>
-<label x="46.482" y="153.924" size="1.778" layer="95"/>
+<label x="46.228" y="154.432" size="1.778" layer="95"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="37.846" y1="156.464" x2="41.656" y2="156.464" width="0.1524" layer="91"/>
@@ -4518,21 +4518,21 @@ By-Attribution Share-Alike 4.0 license</text>
 <pinref part="Q6" gate="G$1" pin="B"/>
 </segment>
 </net>
-<net name="OUT5" class="0">
+<net name="OUT_A1" class="0">
 <segment>
 <wire x1="60.452" y1="70.612" x2="60.452" y2="68.072" width="0.1524" layer="91"/>
 <wire x1="60.452" y1="68.072" x2="60.452" y2="65.532" width="0.1524" layer="91"/>
-<wire x1="60.452" y1="68.072" x2="52.832" y2="68.072" width="0.1524" layer="91"/>
-<wire x1="52.832" y1="68.072" x2="52.832" y2="60.452" width="0.1524" layer="91"/>
-<wire x1="52.832" y1="60.452" x2="39.37" y2="60.452" width="0.1524" layer="91"/>
+<wire x1="60.452" y1="68.072" x2="54.61" y2="68.072" width="0.1524" layer="91"/>
+<wire x1="54.61" y1="68.072" x2="54.61" y2="60.452" width="0.1524" layer="91"/>
+<wire x1="54.61" y1="60.452" x2="39.37" y2="60.452" width="0.1524" layer="91"/>
 <junction x="60.452" y="68.072"/>
-<label x="50.292" y="60.452" size="1.778" layer="95" rot="MR0"/>
+<label x="53.34" y="60.96" size="1.778" layer="95" rot="MR0"/>
 <pinref part="Q6" gate="G$1" pin="C"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <pinref part="JP9" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="OUT6" class="0">
+<net name="OUT_A2" class="0">
 <segment>
 <wire x1="70.612" y1="55.372" x2="70.612" y2="57.912" width="0.1524" layer="91"/>
 <wire x1="70.612" y1="57.912" x2="68.072" y2="57.912" width="0.1524" layer="91"/>
@@ -4570,7 +4570,7 @@ By-Attribution Share-Alike 4.0 license</text>
 <pinref part="JP10" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="OPTO_OUT_1B" class="0">
+<net name="OPTO_OUT_B1" class="0">
 <segment>
 <wire x1="107.188" y1="244.856" x2="107.188" y2="242.316" width="0.1524" layer="91"/>
 <wire x1="107.188" y1="242.316" x2="107.188" y2="239.776" width="0.1524" layer="91"/>
@@ -4617,7 +4617,7 @@ By-Attribution Share-Alike 4.0 license</text>
 <label x="183.642" y="250.19" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="OPTO_OUT_2B" class="0">
+<net name="OPTO_OUT_B2" class="0">
 <segment>
 <wire x1="97.028" y1="229.616" x2="97.028" y2="232.156" width="0.1524" layer="91"/>
 <wire x1="97.028" y1="232.156" x2="99.568" y2="232.156" width="0.1524" layer="91"/>
@@ -4666,7 +4666,7 @@ By-Attribution Share-Alike 4.0 license</text>
 <label x="183.896" y="212.852" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="OPTO_OUT_1C" class="0">
+<net name="OPTO_OUT_C1" class="0">
 <segment>
 <wire x1="107.442" y1="169.164" x2="107.442" y2="166.624" width="0.1524" layer="91"/>
 <wire x1="107.442" y1="166.624" x2="107.442" y2="164.084" width="0.1524" layer="91"/>
@@ -4715,19 +4715,6 @@ By-Attribution Share-Alike 4.0 license</text>
 </net>
 <net name="OPTO_OUT_2C" class="0">
 <segment>
-<wire x1="97.282" y1="153.924" x2="97.282" y2="156.464" width="0.1524" layer="91"/>
-<wire x1="97.282" y1="156.464" x2="99.822" y2="156.464" width="0.1524" layer="91"/>
-<wire x1="99.822" y1="156.464" x2="99.822" y2="151.384" width="0.1524" layer="91"/>
-<wire x1="99.822" y1="151.384" x2="112.522" y2="151.384" width="0.1524" layer="91"/>
-<wire x1="112.522" y1="151.384" x2="112.522" y2="143.764" width="0.1524" layer="91"/>
-<wire x1="97.282" y1="169.164" x2="97.282" y2="156.464" width="0.1524" layer="91"/>
-<junction x="97.282" y="156.464"/>
-<label x="120.904" y="144.272" size="1.778" layer="95"/>
-<pinref part="Q3" gate="G$1" pin="C"/>
-<pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="127.254" y1="143.764" x2="112.522" y2="143.764" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="INPUT_C2" gate="G$1" pin="2"/>
 <wire x1="207.01" y1="140.97" x2="193.04" y2="140.97" width="0.1524" layer="91"/>
 <pinref part="INPUT_C2" gate="G$1" pin="4"/>
@@ -4762,7 +4749,7 @@ By-Attribution Share-Alike 4.0 license</text>
 <label x="183.642" y="141.986" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="OPTO_IN_1A" class="0">
+<net name="OPTO_IN_A1" class="0">
 <segment>
 <wire x1="115.062" y1="60.452" x2="130.048" y2="60.452" width="0.1524" layer="91"/>
 <label x="132.842" y="61.214" size="1.778" layer="95" rot="MR0"/>
@@ -4803,7 +4790,7 @@ By-Attribution Share-Alike 4.0 license</text>
 <label x="186.182" y="105.156" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="OPTO_IN_2A" class="0">
+<net name="OPTO_IN_A2" class="0">
 <segment>
 <wire x1="130.302" y1="55.372" x2="115.57" y2="55.372" width="0.1524" layer="91"/>
 <label x="132.842" y="56.134" size="1.778" layer="95" rot="MR0"/>
@@ -4913,6 +4900,21 @@ By-Attribution Share-Alike 4.0 license</text>
 <pinref part="SPI" gate="A" pin="6"/>
 <wire x1="332.74" y1="203.2" x2="332.74" y2="189.738" width="0.1524" layer="91"/>
 <label x="331.978" y="188.976" size="1.27" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="OPTO_OUT_C2" class="0">
+<segment>
+<wire x1="97.282" y1="153.924" x2="97.282" y2="156.464" width="0.1524" layer="91"/>
+<wire x1="97.282" y1="156.464" x2="99.822" y2="156.464" width="0.1524" layer="91"/>
+<wire x1="99.822" y1="156.464" x2="99.822" y2="151.384" width="0.1524" layer="91"/>
+<wire x1="99.822" y1="151.384" x2="112.522" y2="151.384" width="0.1524" layer="91"/>
+<wire x1="112.522" y1="151.384" x2="112.522" y2="143.764" width="0.1524" layer="91"/>
+<wire x1="97.282" y1="169.164" x2="97.282" y2="156.464" width="0.1524" layer="91"/>
+<junction x="97.282" y="156.464"/>
+<label x="120.904" y="144.272" size="1.778" layer="95"/>
+<pinref part="Q3" gate="G$1" pin="C"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="127.254" y1="143.764" x2="112.522" y2="143.764" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
