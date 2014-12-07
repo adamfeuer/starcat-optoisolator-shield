@@ -3,7 +3,7 @@ StarCat Optoisolator Shield
 
 This is an opto-isolated digital input/output shield for the Arduino Due.
 
-It's good for noise-free synchronization of digital equipment (push-buttons, etc.) with 
+It's good for low-noise synchronization of digital equipment (push-buttons, etc.) with 
 an Arduino Due system. The optical isolation enables the connection of otherwise-noisy
 external circuits or equipment, preventing ground or power supply noise from affecting 
 sensitive ADC measurements. 
