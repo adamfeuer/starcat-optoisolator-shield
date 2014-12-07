@@ -3198,7 +3198,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <text x="191.008" y="34.29" size="2.54" layer="91">Configuration jumpers</text>
 <text x="326.136" y="26.416" size="2.54" layer="95">Released under a Creative Commons 
 By-Attribution Share-Alike 4.0 license</text>
-<text x="325.628" y="37.592" size="2.54" layer="95">Copyright 2013 Adam Feuer</text>
+<text x="325.628" y="37.592" size="2.54" layer="95">Copyright 2014 Adam Feuer</text>
 <text x="315.468" y="84.582" size="2.54" layer="91">Shield Connectors</text>
 <text x="307.086" y="179.578" size="1.524" layer="91">A8</text>
 <text x="307.086" y="177.038" size="1.524" layer="91">A9</text>
@@ -3329,6 +3329,7 @@ By-Attribution Share-Alike 4.0 license</text>
 <text x="58.166" y="266.7" size="1.778" layer="91" rot="MR0">External (noisy) system</text>
 <text x="205.74" y="109.22" size="1.778" layer="91">Output</text>
 <text x="205.74" y="73.66" size="1.778" layer="91">Output</text>
+<text x="189.484" y="11.684" size="5.08" layer="91">StarCat OptoIsolator Shield</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>

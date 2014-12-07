@@ -242,7 +242,7 @@ labeled pin (D38-D45)
 to the blocks' input or output.</text>
 <wire x1="8.3058" y1="33.9598" x2="10.2362" y2="33.9598" width="0.254" layer="21"/>
 <wire x1="10.2362" y1="33.9598" x2="10.2362" y2="34.0106" width="0.254" layer="21"/>
-<dimension x1="101.6762" y1="37.8968" x2="0.0762" y2="37.8206" x3="50.9131375" y3="-11.392196875" textsize="1.778" layer="21" unit="inch"/>
+<dimension x1="101.6762" y1="37.8968" x2="0.0762" y2="37.8206" x3="50.9131375" y3="-11.392196875" textsize="1.778" layer="47" unit="inch"/>
 <text x="18.8214" y="48.6664" size="0.762" layer="21" font="vector" rot="R270">SCL1</text>
 <text x="21.4376" y="48.7172" size="0.762" layer="21" font="vector" rot="R270">SDA1</text>
 <text x="23.9268" y="48.6664" size="0.762" layer="21" font="vector" rot="R270">AREF</text>
@@ -3973,12 +3973,12 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R3" pad="2"/>
 <contactref element="JP8" pad="2"/>
 <wire x1="11.7602" y1="22.4028" x2="14.5542" y2="25.1968" width="0.254" layer="1"/>
-<wire x1="2.3622" y1="25.7048" x2="2.3622" y2="22.7203" width="0.254" layer="1"/>
+<wire x1="2.3622" y1="26.7716" x2="2.3622" y2="22.7203" width="0.254" layer="1"/>
 <wire x1="2.3622" y1="22.7203" x2="2.6797" y2="22.4028" width="0.254" layer="1"/>
 <wire x1="2.6797" y1="22.4028" x2="11.7602" y2="22.4028" width="0.254" layer="1"/>
-<wire x1="4.3942" y1="27.7368" x2="2.3622" y2="25.7048" width="0.254" layer="1"/>
-<wire x1="4.3942" y1="28.5802" x2="4.3942" y2="27.7368" width="0.254" layer="1"/>
 <wire x1="14.5542" y1="25.1968" x2="14.566" y2="25.2476" width="0.254" layer="1"/>
+<wire x1="4.3942" y1="28.5802" x2="4.572" y2="28.702" width="0.0254" layer="1"/>
+<wire x1="4.572" y1="28.702" x2="2.3622" y2="26.7716" width="0.254" layer="1"/>
 </signal>
 <signal name="IN_B1">
 <contactref element="R1" pad="1"/>
@@ -4802,8 +4802,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="18.3642" y1="28.2448" x2="18.1737" y2="28.1178" width="0.254" layer="1"/>
 <wire x1="19.6342" y1="32.5882" x2="19.6342" y2="28.2448" width="0.254" layer="1"/>
 <wire x1="18.8214" y1="33.2232" x2="19.6342" y2="32.5882" width="0.254" layer="1"/>
-<wire x1="4.3942" y1="32.0802" x2="4.3942" y2="32.2453" width="0.254" layer="1"/>
-<wire x1="4.3942" y1="32.2453" x2="5.5753" y2="33.2232" width="0.254" layer="1"/>
 <wire x1="5.5753" y1="33.2232" x2="18.8214" y2="33.2232" width="0.254" layer="1"/>
 <wire x1="18.3642" y1="28.2448" x2="19.6342" y2="28.2448" width="0.254" layer="1"/>
 <polygon width="0.0254" layer="1">
@@ -4811,6 +4809,7 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="19.6596" y="28.8036"/>
 <vertex x="19.6596" y="27.6606"/>
 </polygon>
+<wire x1="5.5753" y1="33.2232" x2="4.3942" y2="32.0802" width="0.254" layer="1"/>
 </signal>
 <signal name="EXT_VCC">
 <contactref element="JP9" pad="1"/>
